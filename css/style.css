@@ -1,0 +1,30 @@
+/* ----- Page styling ----- */
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* ----- Board container ----- */
+#board {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+/* ----- Custom square colour -----
+   chessboard.js shades every dark square with class "black-3c85d"
+   (occasionally "black-1e1d1d" on some builds). Override them both.
+*/
+.black-3c85d,
+.black-1e1d1d {
+  background-color: #ffb6c1 !important; /* light‑pink */
+}
